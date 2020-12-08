@@ -2,7 +2,7 @@
 
 terraform {
   required_providers {
-    dns = {
+    aws = {
       source = "hashicorp/aws"
     }
   }
