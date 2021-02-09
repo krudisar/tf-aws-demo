@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "test" {
-  name     = "example-resources"
+  name     = "${var.prefix}example-resources"
   location = "West Europe"
 }
 
